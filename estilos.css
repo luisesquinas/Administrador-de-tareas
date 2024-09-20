@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor de la ventana */
+.window {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;  /* Borde negro */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de título */
+.title-bar {
+    background-color: #0078d7;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window-controls button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.window-controls button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Pestañas */
+.tabs {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex-grow: 1;
+    margin: 0 5px;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+thead {
+    background-color: #0078d7;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+

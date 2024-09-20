@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Tareas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Contenedor de la ventana -->
+    <div class="window">
+        <!-- Barra de título -->
+        <div class="title-bar">
+            <span>Administrador de Tareas</span>
+            <div class="window-controls">
+                <button>-</button>
+                <button>□</button>
+                <button>X</button>
+            </div>
+        </div>
+
+        <!-- Pestañas -->
+        <div class="tabs">
+            <button>Procesos</button>
+            <button>Rendimiento</button>
+            <button>Historial de aplicaciones</button>
+            <button>Inicio</button>
+            <button>Usuarios</button>
+            <button>Detalles</button>
+            <button>Servicios</button>
+        </div>
+
+        <!-- Contenedor de la tabla -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del proceso</th>
+                        <th>CPU (%)</th>
+                        <th>Memoria (MB)</th>
+                        <th>Disco (MB/s)</th>
+                        <th>Red (Mbps)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>explorer.exe</td>
+                        <td>1.5</td>
+                        <td>200</td>
+                        <td>0.1</td>
+                        <td>0.2</td>
+                    </tr>
+                    <tr>
+                        <td>chrome.exe</td>
+                        <td>25.0</td>
+                        <td>1500</td>
+                        <td>0.0</td>
+                        <td>1.5</td>
+                    </tr>
+                    <tr>
+                        <td>Visual Studio Code</td>
+                        <td>10.0</td>
+                        <td>500</td>
+                        <td>0.2</td>
+                        <td>0.5</td>
+                    </tr>
+                    <tr>
+                        <td>Office</td>
+                        <td>5.0</td>
+                        <td>300</td>
+                        <td>0.1</td>
+                        <td>0.3</td>
+                    </tr>
+                    <tr>
+                        <td>VLC</td>
+                        <td>2.0</td>
+                        <td>100</td>
+                        <td>0.1</td>
+                        <td>0.1</td>
+                    </tr>
+                    <tr>
+                        <td>Antivirus</td>
+                        <td>30.0</td>
+                        <td>800</td>
+                        <td>0.5</td>
+                        <td>2.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
